@@ -1,0 +1,136 @@
+C:\QADev\Programming\TestFrameworkTutorial\Tests\bin\Debug\Tests.dll
+C:\QADev\Programming\TestFrameworkTutorial\Tests\bin\Debug\Tests.pdb
+C:\QADev\Programming\TestFrameworkTutorial\Tests\bin\Debug\TestFrameworkTutorial.dll
+C:\QADev\Programming\TestFrameworkTutorial\Tests\bin\Debug\TestFrameworkTutorial.pdb
+C:\QADev\Programming\TestFrameworkTutorial\Tests\obj\Debug\Tests.csprojResolveAssemblyReference.cache
+C:\QADev\Programming\TestFrameworkTutorial\Tests\obj\Debug\Tests.dll
+C:\QADev\Programming\TestFrameworkTutorial\Tests\obj\Debug\Tests.pdb
+C:\QADev\Programming\TestFrameworkTutorial\Tests\bin\Debug\WebDriver.dll
+C:\QADev\Programming\TestFrameworkTutorial\Tests\bin\Debug\WebDriver.xml
+C:\QADev\Programming\TestFrameworkTutorial\Tests\bin\Debug\WebDriver.Support.dll
+C:\QADev\Programming\TestFrameworkTutorial\Tests\bin\Debug\WebDriver.Support.xml
+C:\QADev\Programming\TestFrameworkTutorial\Tests\bin\Debug\Dapper.dll
+C:\QADev\Programming\TestFrameworkTutorial\Tests\bin\Debug\Dapper.xml
+C:\QADev\Programming\TestFrameworkTutorial\Tests\bin\Debug\JSikuliModule.jar
+C:\QADev\Programming\TestFrameworkTutorial\Tests\bin\Debug\Ionic.Zip.dll
+C:\QADev\Programming\TestFrameworkTutorial\Tests\bin\Debug\SikuliModule.dll
+C:\QADev\Programming\TestFrameworkTutorial\Tests\bin\Debug\System.Drawing.dll
+C:\QADev\Programming\TestFrameworkTutorial\Tests\bin\Debug\SikuliModule.pdb
+C:\QADev\Programming\OracleTestFrameworkTutorial\Tests\bin\Debug\JSikuliModule.jar
+C:\QADev\Programming\OracleTestFrameworkTutorial\Tests\bin\Debug\Tests.dll
+C:\QADev\Programming\OracleTestFrameworkTutorial\Tests\bin\Debug\Tests.pdb
+C:\QADev\Programming\OracleTestFrameworkTutorial\Tests\bin\Debug\Ionic.Zip.dll
+C:\QADev\Programming\OracleTestFrameworkTutorial\Tests\bin\Debug\SikuliModule.dll
+C:\QADev\Programming\OracleTestFrameworkTutorial\Tests\bin\Debug\System.Drawing.dll
+C:\QADev\Programming\OracleTestFrameworkTutorial\Tests\bin\Debug\TestFrameworkTutorial.dll
+C:\QADev\Programming\OracleTestFrameworkTutorial\Tests\bin\Debug\WebDriver.dll
+C:\QADev\Programming\OracleTestFrameworkTutorial\Tests\bin\Debug\WebDriver.Support.dll
+C:\QADev\Programming\OracleTestFrameworkTutorial\Tests\bin\Debug\Dapper.dll
+C:\QADev\Programming\OracleTestFrameworkTutorial\Tests\bin\Debug\TestFrameworkTutorial.pdb
+C:\QADev\Programming\OracleTestFrameworkTutorial\Tests\bin\Debug\SikuliModule.pdb
+C:\QADev\Programming\OracleTestFrameworkTutorial\Tests\bin\Debug\WebDriver.xml
+C:\QADev\Programming\OracleTestFrameworkTutorial\Tests\bin\Debug\WebDriver.Support.xml
+C:\QADev\Programming\OracleTestFrameworkTutorial\Tests\bin\Debug\Dapper.xml
+C:\QADev\Programming\OracleTestFrameworkTutorial\Tests\obj\Debug\Tests.csprojResolveAssemblyReference.cache
+C:\QADev\Programming\OracleTestFrameworkTutorial\Tests\obj\Debug\Tests.dll
+C:\QADev\Programming\OracleTestFrameworkTutorial\Tests\obj\Debug\Tests.pdb
+C:\QADev\OracleTestFrameworkTutorial\Tests\bin\Debug\JSikuliModule.jar
+C:\QADev\OracleTestFrameworkTutorial\Tests\bin\Debug\Tests.dll
+C:\QADev\OracleTestFrameworkTutorial\Tests\bin\Debug\Tests.pdb
+C:\QADev\OracleTestFrameworkTutorial\Tests\bin\Debug\Ionic.Zip.dll
+C:\QADev\OracleTestFrameworkTutorial\Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\QADev\OracleTestFrameworkTutorial\Tests\bin\Debug\SikuliModule.dll
+C:\QADev\OracleTestFrameworkTutorial\Tests\bin\Debug\System.Drawing.dll
+C:\QADev\OracleTestFrameworkTutorial\Tests\bin\Debug\TestFrameworkTutorial.dll
+C:\QADev\OracleTestFrameworkTutorial\Tests\bin\Debug\WebDriver.Support.dll
+C:\QADev\OracleTestFrameworkTutorial\Tests\bin\Debug\WebDriver.dll
+C:\QADev\OracleTestFrameworkTutorial\Tests\bin\Debug\Dapper.dll
+C:\QADev\OracleTestFrameworkTutorial\Tests\bin\Debug\TestFrameworkTutorial.pdb
+C:\QADev\OracleTestFrameworkTutorial\Tests\bin\Debug\SikuliModule.pdb
+C:\QADev\OracleTestFrameworkTutorial\Tests\bin\Debug\WebDriver.Support.xml
+C:\QADev\OracleTestFrameworkTutorial\Tests\bin\Debug\WebDriver.xml
+C:\QADev\OracleTestFrameworkTutorial\Tests\bin\Debug\Dapper.xml
+C:\QADev\OracleTestFrameworkTutorial\Tests\bin\Debug\es\Microsoft.VisualStudio.QualityTools.UnitTestFramework.resources.dll
+C:\QADev\OracleTestFrameworkTutorial\Tests\obj\Debug\Tests.csprojResolveAssemblyReference.cache
+C:\QADev\OracleTestFrameworkTutorial\Tests\obj\Debug\Tests.dll
+C:\QADev\OracleTestFrameworkTutorial\Tests\obj\Debug\Tests.pdb
+E:\VisualStudio\POC\Eduardo code\OracleTestFrameworkTutorial\Tests\bin\Debug\Tests.dll
+E:\VisualStudio\POC\Eduardo code\OracleTestFrameworkTutorial\Tests\bin\Debug\Tests.pdb
+E:\VisualStudio\POC\Eduardo code\OracleTestFrameworkTutorial\Tests\bin\Debug\Ionic.Zip.dll
+E:\VisualStudio\POC\Eduardo code\OracleTestFrameworkTutorial\Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+E:\VisualStudio\POC\Eduardo code\OracleTestFrameworkTutorial\Tests\bin\Debug\SikuliModule.dll
+E:\VisualStudio\POC\Eduardo code\OracleTestFrameworkTutorial\Tests\bin\Debug\System.Drawing.dll
+E:\VisualStudio\POC\Eduardo code\OracleTestFrameworkTutorial\Tests\bin\Debug\TestFrameworkTutorial.dll
+E:\VisualStudio\POC\Eduardo code\OracleTestFrameworkTutorial\Tests\bin\Debug\WebDriver.Support.dll
+E:\VisualStudio\POC\Eduardo code\OracleTestFrameworkTutorial\Tests\bin\Debug\WebDriver.dll
+E:\VisualStudio\POC\Eduardo code\OracleTestFrameworkTutorial\Tests\bin\Debug\Dapper.dll
+E:\VisualStudio\POC\Eduardo code\OracleTestFrameworkTutorial\Tests\bin\Debug\TestFrameworkTutorial.pdb
+E:\VisualStudio\POC\Eduardo code\OracleTestFrameworkTutorial\Tests\bin\Debug\SikuliModule.pdb
+E:\VisualStudio\POC\Eduardo code\OracleTestFrameworkTutorial\Tests\bin\Debug\WebDriver.Support.xml
+E:\VisualStudio\POC\Eduardo code\OracleTestFrameworkTutorial\Tests\bin\Debug\WebDriver.xml
+E:\VisualStudio\POC\Eduardo code\OracleTestFrameworkTutorial\Tests\bin\Debug\Dapper.xml
+E:\VisualStudio\POC\Eduardo code\OracleTestFrameworkTutorial\Tests\obj\Debug\Tests.csprojResolveAssemblyReference.cache
+E:\VisualStudio\POC\Eduardo code\OracleTestFrameworkTutorial\Tests\obj\Debug\Tests.csproj.CoreCompileInputs.cache
+E:\VisualStudio\POC\Eduardo code\OracleTestFrameworkTutorial\Tests\obj\Debug\Tests.dll
+E:\VisualStudio\POC\Eduardo code\OracleTestFrameworkTutorial\Tests\obj\Debug\Tests.pdb
+E:\VisualStudio\POC\Eduardo code\OracleTestFrameworkTutorial\Tests\bin\Debug\TestDataAccess\TestData.xlsx
+E:\VisualStudio\HCM\OracleTestFrameworkTutorial\Tests\bin\Debug\TestDataAccess\TestData.xlsx
+E:\VisualStudio\HCM\OracleTestFrameworkTutorial\Tests\bin\Debug\Tests.dll
+E:\VisualStudio\HCM\OracleTestFrameworkTutorial\Tests\bin\Debug\Tests.pdb
+E:\VisualStudio\HCM\OracleTestFrameworkTutorial\Tests\bin\Debug\Ionic.Zip.dll
+E:\VisualStudio\HCM\OracleTestFrameworkTutorial\Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+E:\VisualStudio\HCM\OracleTestFrameworkTutorial\Tests\bin\Debug\SikuliModule.dll
+E:\VisualStudio\HCM\OracleTestFrameworkTutorial\Tests\bin\Debug\System.Drawing.dll
+E:\VisualStudio\HCM\OracleTestFrameworkTutorial\Tests\bin\Debug\TestFrameworkTutorial.dll
+E:\VisualStudio\HCM\OracleTestFrameworkTutorial\Tests\bin\Debug\WebDriver.Support.dll
+E:\VisualStudio\HCM\OracleTestFrameworkTutorial\Tests\bin\Debug\WebDriver.dll
+E:\VisualStudio\HCM\OracleTestFrameworkTutorial\Tests\bin\Debug\Dapper.dll
+E:\VisualStudio\HCM\OracleTestFrameworkTutorial\Tests\bin\Debug\TestFrameworkTutorial.pdb
+E:\VisualStudio\HCM\OracleTestFrameworkTutorial\Tests\bin\Debug\SikuliModule.pdb
+E:\VisualStudio\HCM\OracleTestFrameworkTutorial\Tests\bin\Debug\WebDriver.Support.xml
+E:\VisualStudio\HCM\OracleTestFrameworkTutorial\Tests\bin\Debug\WebDriver.xml
+E:\VisualStudio\HCM\OracleTestFrameworkTutorial\Tests\bin\Debug\Dapper.xml
+E:\VisualStudio\HCM\OracleTestFrameworkTutorial\Tests\obj\Debug\Tests.csprojResolveAssemblyReference.cache
+E:\VisualStudio\HCM\OracleTestFrameworkTutorial\Tests\obj\Debug\Tests.csproj.CoreCompileInputs.cache
+E:\VisualStudio\HCM\OracleTestFrameworkTutorial\Tests\obj\Debug\Tests.dll
+E:\VisualStudio\HCM\OracleTestFrameworkTutorial\Tests\obj\Debug\Tests.pdb
+E:\COA\build_10102017\OracleTestFrameworkTutorial\Tests\obj\Debug\Tests.csprojResolveAssemblyReference.cache
+E:\COA\build_10102017\OracleTestFrameworkTutorial\Tests\obj\Debug\Tests.csproj.CoreCompileInputs.cache
+E:\COA\build_10102017\OracleTestFrameworkTutorial\Tests\obj\Debug\Tests.dll
+E:\COA\build_10102017\OracleTestFrameworkTutorial\Tests\obj\Debug\Tests.pdb
+E:\COA\build_10102017\OracleTestFrameworkTutorial\Tests\bin\Debug\NUnit3.TestAdapter.dll
+E:\COA\build_10102017\OracleTestFrameworkTutorial\Tests\bin\Debug\nunit.engine.dll
+E:\COA\build_10102017\OracleTestFrameworkTutorial\Tests\bin\Debug\nunit.engine.api.dll
+E:\COA\build_10102017\OracleTestFrameworkTutorial\Tests\bin\Debug\Mono.Cecil.dll
+E:\COA\build_10102017\OracleTestFrameworkTutorial\Tests\bin\Debug\Mono.Cecil.Pdb.dll
+E:\COA\build_10102017\OracleTestFrameworkTutorial\Tests\bin\Debug\Mono.Cecil.Mdb.dll
+E:\COA\build_10102017\OracleTestFrameworkTutorial\Tests\bin\Debug\Mono.Cecil.Rocks.dll
+E:\COA\build_10102017\OracleTestFrameworkTutorial\Tests\bin\Debug\PageObjects\SearchPerson.cs
+E:\COA\build_10102017\OracleTestFrameworkTutorial\Tests\bin\Debug\TestDataAccess\TestData.xlsx
+E:\COA\build_10102017\OracleTestFrameworkTutorial\Tests\bin\Debug\Tests.dll.config
+E:\COA\build_10102017\OracleTestFrameworkTutorial\Tests\bin\Debug\Tests.dll
+E:\COA\build_10102017\OracleTestFrameworkTutorial\Tests\bin\Debug\Tests.pdb
+E:\COA\build_10102017\OracleTestFrameworkTutorial\Tests\bin\Debug\Configuration.dll
+E:\COA\build_10102017\OracleTestFrameworkTutorial\Tests\bin\Debug\ICSharpCode.SharpZipLib.dll
+E:\COA\build_10102017\OracleTestFrameworkTutorial\Tests\bin\Debug\Ionic.Zip.dll
+E:\COA\build_10102017\OracleTestFrameworkTutorial\Tests\bin\Debug\log4net.dll
+E:\COA\build_10102017\OracleTestFrameworkTutorial\Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+E:\COA\build_10102017\OracleTestFrameworkTutorial\Tests\bin\Debug\NPOI.dll
+E:\COA\build_10102017\OracleTestFrameworkTutorial\Tests\bin\Debug\NPOI.OOXML.dll
+E:\COA\build_10102017\OracleTestFrameworkTutorial\Tests\bin\Debug\NPOI.OpenXml4Net.dll
+E:\COA\build_10102017\OracleTestFrameworkTutorial\Tests\bin\Debug\NPOI.OpenXmlFormats.dll
+E:\COA\build_10102017\OracleTestFrameworkTutorial\Tests\bin\Debug\nunit.framework.dll
+E:\COA\build_10102017\OracleTestFrameworkTutorial\Tests\bin\Debug\SikuliModule.dll
+E:\COA\build_10102017\OracleTestFrameworkTutorial\Tests\bin\Debug\System.Drawing.dll
+E:\COA\build_10102017\OracleTestFrameworkTutorial\Tests\bin\Debug\TestFrameworkTutorial.dll
+E:\COA\build_10102017\OracleTestFrameworkTutorial\Tests\bin\Debug\WebDriver.dll
+E:\COA\build_10102017\OracleTestFrameworkTutorial\Tests\bin\Debug\WebDriver.Support.dll
+E:\COA\build_10102017\OracleTestFrameworkTutorial\Tests\bin\Debug\TestFrameworkTutorial.pdb
+E:\COA\build_10102017\OracleTestFrameworkTutorial\Tests\bin\Debug\Configuration.pdb
+E:\COA\build_10102017\OracleTestFrameworkTutorial\Tests\bin\Debug\Configuration.xml
+E:\COA\build_10102017\OracleTestFrameworkTutorial\Tests\bin\Debug\log4net.xml
+E:\COA\build_10102017\OracleTestFrameworkTutorial\Tests\bin\Debug\NPOI.xml
+E:\COA\build_10102017\OracleTestFrameworkTutorial\Tests\bin\Debug\nunit.framework.xml
+E:\COA\build_10102017\OracleTestFrameworkTutorial\Tests\bin\Debug\SikuliModule.pdb
+E:\COA\build_10102017\OracleTestFrameworkTutorial\Tests\bin\Debug\WebDriver.xml
+E:\COA\build_10102017\OracleTestFrameworkTutorial\Tests\bin\Debug\WebDriver.Support.xml
