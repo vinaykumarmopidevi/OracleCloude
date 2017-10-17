@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TestFrameworkTutorial.CustomException
+namespace Helpers.TestHelpers
 {
     public class NoSutiableDriverFound : Exception
     {

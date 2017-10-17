@@ -11,13 +11,13 @@ using OpenQA.Selenium.Firefox;
 using OpenQA.Selenium.IE;
 using OpenQA.Selenium.PhantomJS;
 using OpenQA.Selenium.Remote;
-using TestFrameworkTutorial.ComponentHelper;
-using TestFrameworkTutorial.Configuration;
-using TestFrameworkTutorial.CustomException;
-using TestFrameworkTutorial.Settings;
+using Helpers.TestHelpers;
+using Helpers.TestHelpers;
+using Helpers.TestHelpers;
+using Helpers.TestHelpers;
 
 
-namespace TestFrameworkTutorial.BaseClasses
+namespace Helpers.TestHelpers
 {
     [TestClass]
     public class InitializeWebDriver

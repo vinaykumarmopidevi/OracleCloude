@@ -7,10 +7,10 @@ using System.Threading;
 using System.Threading.Tasks;
 using log4net;
 using OpenQA.Selenium;
-using TestFrameworkTutorial.ComponentHelper;
-using TestFrameworkTutorial.ExtensionClass.LoggerExtClass;
+using Helpers.TestHelpers;
+using Helpers.TestHelpers;
 
-namespace TestFrameworkTutorial.ExtensionClass.WebElementExtClass
+namespace Helpers.TestHelpers
 {
     public static class JavaScriptExecutor
     {

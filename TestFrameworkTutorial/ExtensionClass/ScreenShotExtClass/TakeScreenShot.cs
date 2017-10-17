@@ -4,10 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
-using TestFrameworkTutorial.BaseClasses;
-using TestFrameworkTutorial.ComponentHelper;
+using Helpers.TestHelpers;
+using Helpers.TestHelpers;
 
-namespace TestFrameworkTutorial.ExtensionClass.ScreenShotExtClass
+namespace Helpers.TestHelpers
 {
     public static class TakeScreenShot
     {

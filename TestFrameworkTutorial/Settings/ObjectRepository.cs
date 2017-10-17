@@ -5,10 +5,10 @@ using System.Text;
 using System.Threading.Tasks;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using OpenQA.Selenium;
-using TestFrameworkTutorial.Interfaces;
+using Helpers.TestHelpers;
 
 
-namespace TestFrameworkTutorial.Settings
+namespace Helpers.TestHelpers
 {
     public class ObjectRepository
     {

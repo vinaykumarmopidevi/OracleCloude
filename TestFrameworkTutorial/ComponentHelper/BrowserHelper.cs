@@ -1,11 +1,11 @@
 ﻿using System;
 using System.Threading;
 using log4net;
-using TestFrameworkTutorial.CustomException;
-using TestFrameworkTutorial.ExtensionClass.LoggerExtClass;
-using TestFrameworkTutorial.Settings;
+using Helpers.TestHelpers;
+using Helpers.TestHelpers;
+using Helpers.TestHelpers;
 
-namespace TestFrameworkTutorial.ComponentHelper
+namespace Helpers.TestHelpers
 {
     public class BrowserHelper
     {

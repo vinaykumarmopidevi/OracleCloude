@@ -8,7 +8,7 @@ using OpenQA.Selenium;
 using OpenQA.Selenium.Support.UI;
 
 
-namespace TestFrameworkTutorial.ComponentHelper
+namespace Helpers.TestHelpers
 {
     public class DropDownHelper
     {

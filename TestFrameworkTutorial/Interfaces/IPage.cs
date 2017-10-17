@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using OpenQA.Selenium;
 
-namespace TestFrameworkTutorial.Interfaces
+namespace Helpers.TestHelpers
 {
     public interface IPage
     {

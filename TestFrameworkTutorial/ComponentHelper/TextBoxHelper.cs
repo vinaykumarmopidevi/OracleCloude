@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using OpenQA.Selenium;
 
-namespace TestFrameworkTutorial.ComponentHelper
+namespace Helpers.TestHelpers
 {
     public class TextBoxHelper
     {

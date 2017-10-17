@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using TestFrameworkTutorial.Configuration;
+using Helpers.TestHelpers;
 
-namespace TestFrameworkTutorial.Interfaces
+namespace Helpers.TestHelpers
 {
     public interface IConfig
     {

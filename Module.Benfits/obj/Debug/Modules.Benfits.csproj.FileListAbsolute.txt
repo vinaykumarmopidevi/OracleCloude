@@ -1,0 +1,2 @@
+E:\COA\16-10-2017\OracleTestFrameworkTutorial\Module.Benfits\obj\Debug\Modules.Benfits.csprojResolveAssemblyReference.cache
+E:\COA\16-10-2017\OracleTestFrameworkTutorial\Module.Benfits\obj\Debug\Modules.Benfits.csproj.CoreCompileInputs.cache

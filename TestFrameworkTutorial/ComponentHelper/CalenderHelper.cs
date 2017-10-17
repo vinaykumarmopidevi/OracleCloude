@@ -2,9 +2,9 @@
 using System.Threading;
 using log4net;
 using OpenQA.Selenium;
-using TestFrameworkTutorial.Settings;
+using Helpers.TestHelpers;
 
-namespace TestFrameworkTutorial.ComponentHelper
+namespace Helpers.TestHelpers
 {
     public class CalenderHelper
     {

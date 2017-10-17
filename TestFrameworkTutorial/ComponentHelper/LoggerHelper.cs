@@ -9,7 +9,7 @@ using log4net.Config;
 using log4net.Core;
 using log4net.Layout;
 
-namespace TestFrameworkTutorial.ComponentHelper
+namespace Helpers.TestHelpers
 {
     public class LoggerHelper
     {

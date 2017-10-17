@@ -5,9 +5,9 @@ using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 using log4net;
-using TestFrameworkTutorial.ComponentHelper;
+using Helpers.TestHelpers;
 
-namespace TestFrameworkTutorial.ExtensionClass.LoggerExtClass
+namespace Helpers.TestHelpers
 {
     public static class LoggerExtensionClass
     {

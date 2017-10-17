@@ -9,9 +9,9 @@ using System.Threading.Tasks;
 using log4net;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Support.PageObjects;
-using TestFrameworkTutorial.ComponentHelper;
+using Helpers.TestHelpers;
 
-namespace TestFrameworkTutorial.BaseClasses
+namespace Helpers.TestHelpers
 {
     public class PageBase : BaseClass
     {

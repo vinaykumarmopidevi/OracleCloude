@@ -4,11 +4,11 @@ using System.Configuration;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using TestFrameworkTutorial.Interfaces;
-using TestFrameworkTutorial.Settings;
+using Helpers.TestHelpers;
+using Helpers.TestHelpers;
 
 
-namespace TestFrameworkTutorial.Configuration
+namespace Helpers.TestHelpers
 {
     public class AppConfigReader : IConfig
     {

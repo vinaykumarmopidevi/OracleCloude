@@ -94,50 +94,55 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
-    <Compile Include="PageObjects\AuthorPage.cs" />
-    <Compile Include="PageObjects\Browser.cs" />
-    <Compile Include="PageObjects\EmployementInformation.cs" />
-    <Compile Include="PageObjects\HomePage.cs" />
-    <Compile Include="PageObjects\Identification.cs" />
-    <Compile Include="PageObjects\LoginBase.cs" />
-    <Compile Include="PageObjects\LoginPage.cs" />
-    <Compile Include="PageObjects\NavigatorPage.cs" />
-    <Compile Include="PageObjects\Pages.cs" />
-    <Compile Include="PageObjects\PersonInformation.cs" />
-    <Compile Include="PageObjects\SearchPerson.cs">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Compile>
-    <Compile Include="TestBaseUtility\Constants.cs" />
-    <Compile Include="TestBaseUtility\DataUtil.cs" />
-    <Compile Include="TestCases\BaseTest.cs" />
+    <Compile Include="Scenarios\Absence\ABS_Employee_Enter_Absence_Type.cs" />
+    <Compile Include="Scenarios\Absence\ABS_Employee_View_Accrual_Balances.cs" />
+    <Compile Include="Scenarios\Absence\ABS_Manager_Enters_Absence_for_an_Employee.cs" />
+    <Compile Include="Scenarios\Absence\ABS_Manager_Approves_Absence_applied_by_an_Employee.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="TestCases\HireAnEmployee.cs" />
-    <Compile Include="TestDataAccess\ExcelDataAccess.cs" />
-    <Compile Include="TestDataAccess\ExcelReaderFile.cs" />
-    <Compile Include="TestDataAccess\UserData.cs" />
+    <Compile Include="Scenarios\CompensationManagement\CM_Defining_Derived_Eligibility_Factor_Age.cs" />
+    <Compile Include="Scenarios\CompensationManagement\CM_Defining_Derived_Eligibility_Factor_for_Length_of_Service.cs" />
+    <Compile Include="Scenarios\CompensationManagement\CM_Create_Eligibility_Profile.cs" />
+    <Compile Include="Scenarios\CompensationManagement\CM_Create_Salary_Basis.cs" />
+    <Compile Include="Scenarios\LearningManagement\LM_Create_Course.cs" />
+    <Compile Include="Scenarios\LearningManagement\LM_Create_Class.cs" />
+    <Compile Include="Scenarios\LearningManagement\LM_Create_Specialization.cs" />
+    <Compile Include="Scenarios\LearningManagement\LM_Create_Content.cs" />
+    <Compile Include="Scenarios\Payroll\PAY_Create_Consolidation_Group.cs" />
+    <Compile Include="Scenarios\Payroll\PAY_Create_an_Earning_Element.cs" />
+    <Compile Include="Scenarios\Payroll\PAY_Create_Deduction_Element.cs" />
+    <Compile Include="Scenarios\Payroll\PAY_Create_Balance_Definition.cs" />
+    <Compile Include="Scenarios\ProfileManagement\PM_Enter_Skills_and_Qualifications_by_Employee.cs" />
+    <Compile Include="Scenarios\ProfileManagement\PM_Enter_Competencies_by_Employee.cs" />
+    <Compile Include="Scenarios\ProfileManagement\PM_Enter_Careers_of_Interest_by_Employee.cs" />
+    <Compile Include="Scenarios\ProfileManagement\PM_Enter_Career_Preferences_and_Work_Preferences_by_Employee.cs" />
+    <Compile Include="Scenarios\TalentManagement\TM_Create_Job_Succession_Plan.cs" />
+    <Compile Include="Scenarios\TalentManagement\TM_Create_Incumbent_Succession_Plan.cs" />
+    <Compile Include="Scenarios\TalentManagement\TM_Create_Job_Family_Succession_Plan.cs" />
+    <Compile Include="Scenarios\TalentManagement\TM_Create_Position_Succession_Plan.cs" />
+    <Compile Include="Helper\TestHelper.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\TestFrameworkTutorial\TestFrameworkTutorial.csproj">
+    <ProjectReference Include="..\TestFrameworkTutorial\Helpers.TestHelpers.csproj">
       <Project>{4a287015-1612-4a1f-98d4-1df9c7c9c98c}</Project>
-      <Name>TestFrameworkTutorial</Name>
+      <Name>Helpers.TestHelpers</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <Content Include="JSikuliModule.jar" />
-    <Content Include="Resources\chromedriver\chromedriver.exe" />
-    <Content Include="Resources\geckodriver\geckodriver.exe" />
-    <Content Include="Resources\IEDriverServer\IEDriverServer.exe" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="App.config" />
-    <None Include="packages.config" />
-    <None Include="TestDataAccess\Data.xlsx" />
-    <None Include="TestDataAccess\TestData.xlsx">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
     </None>
+    <None Include="packages.config" />
+    <None Include="TestDataFile\Data.xlsx" />
   </ItemGroup>
   <ItemGroup>
     <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Scenarios\Benifits\" />
+    <Folder Include="Scenarios\CoreHR\" />
   </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">

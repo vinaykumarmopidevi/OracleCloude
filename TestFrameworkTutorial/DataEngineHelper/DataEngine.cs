@@ -4,12 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
-using TestFrameworkTutorial.ComponentHelper;
-using TestFrameworkTutorial.Interfaces;
+using Helpers.TestHelpers;
+using Helpers.TestHelpers;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using TestFrameworkTutorial.Settings;
+using Helpers.TestHelpers;
 
-namespace TestFrameworkTutorial.DataEngineHelper
+namespace Helpers.TestHelpers
 {
     public class DataEngine
     {

@@ -8,11 +8,11 @@ using System.Threading.Tasks;
 using log4net;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Support.PageObjects;
-using TestFrameworkTutorial.ComponentHelper;
-using TestFrameworkTutorial.ExtensionClass.LoggerExtClass;
-using TestFrameworkTutorial.Settings;
+using Helpers.TestHelpers;
+using Helpers.TestHelpers;
+using Helpers.TestHelpers;
 
-namespace TestFrameworkTutorial.BaseClasses
+namespace Helpers.TestHelpers
 {
     public class BaseClass
     {

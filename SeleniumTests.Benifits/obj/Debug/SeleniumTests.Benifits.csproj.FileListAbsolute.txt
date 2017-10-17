@@ -1,0 +1,2 @@
+E:\COA\16-10-2017\OracleTestFrameworkTutorial\SeleniumTests.Benifits\obj\Debug\SeleniumTests.Benifits.csprojResolveAssemblyReference.cache
+E:\COA\16-10-2017\OracleTestFrameworkTutorial\SeleniumTests.Benifits\obj\Debug\SeleniumTests.Benifits.csproj.CoreCompileInputs.cache
