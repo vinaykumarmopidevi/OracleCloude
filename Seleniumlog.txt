@@ -383,3 +383,30 @@
 2017-10-30 21:48:06,667 [14] INFO  Helpers.TestHelpers.TestBaseUtility.CommonBase - Test starts from row : 1
 2017-10-30 21:48:06,680 [14] INFO  Helpers.TestHelpers.TestBaseUtility.CommonBase - Total rows :1
 2017-10-30 21:48:06,681 [14] INFO  Helpers.TestHelpers.TestBaseUtility.CommonBase - Total cols :6
+2017-10-30 21:50:05,600 [14] INFO  Helpers.TestHelpers.TestBaseUtility.CommonBase - Test starts from row : 1
+2017-10-30 21:50:05,612 [14] INFO  Helpers.TestHelpers.TestBaseUtility.CommonBase - Total rows :1
+2017-10-30 21:50:05,612 [14] INFO  Helpers.TestHelpers.TestBaseUtility.CommonBase - Total cols :13
+2017-10-30 21:50:06,674 [14] INFO  Helpers.TestHelpers.TestBaseUtility.CommonBase - Test starts from row : 1
+2017-10-30 21:50:06,683 [14] INFO  Helpers.TestHelpers.TestBaseUtility.CommonBase - Total rows :1
+2017-10-30 21:50:06,683 [14] INFO  Helpers.TestHelpers.TestBaseUtility.CommonBase - Total cols :6
+2017-10-30 21:50:07,501 [14] INFO  Helpers.TestHelpers.TestBaseUtility.CommonBase - Test starts from row : 1
+2017-10-30 21:50:07,510 [14] INFO  Helpers.TestHelpers.TestBaseUtility.CommonBase - Total rows :1
+2017-10-30 21:50:07,510 [14] INFO  Helpers.TestHelpers.TestBaseUtility.CommonBase - Total cols :6
+2017-10-30 21:51:50,537 [13] INFO  Helpers.TestHelpers.TestBaseUtility.CommonBase - Test starts from row : 1
+2017-10-30 21:51:50,545 [13] INFO  Helpers.TestHelpers.TestBaseUtility.CommonBase - Total rows :1
+2017-10-30 21:51:50,545 [13] INFO  Helpers.TestHelpers.TestBaseUtility.CommonBase - Total cols :13
+2017-10-30 21:51:51,493 [13] INFO  Helpers.TestHelpers.TestBaseUtility.CommonBase - Test starts from row : 1
+2017-10-30 21:51:51,502 [13] INFO  Helpers.TestHelpers.TestBaseUtility.CommonBase - Total rows :1
+2017-10-30 21:51:51,502 [13] INFO  Helpers.TestHelpers.TestBaseUtility.CommonBase - Total cols :6
+2017-10-30 21:51:52,268 [13] INFO  Helpers.TestHelpers.TestBaseUtility.CommonBase - Test starts from row : 1
+2017-10-30 21:51:52,276 [13] INFO  Helpers.TestHelpers.TestBaseUtility.CommonBase - Total rows :1
+2017-10-30 21:51:52,276 [13] INFO  Helpers.TestHelpers.TestBaseUtility.CommonBase - Total cols :6
+2017-10-30 21:56:25,053 [14] INFO  Helpers.TestHelpers.TestBaseUtility.CommonBase - Test starts from row : 1
+2017-10-30 21:56:25,064 [14] INFO  Helpers.TestHelpers.TestBaseUtility.CommonBase - Total rows :1
+2017-10-30 21:56:25,064 [14] INFO  Helpers.TestHelpers.TestBaseUtility.CommonBase - Total cols :13
+2017-10-30 21:56:26,058 [14] INFO  Helpers.TestHelpers.TestBaseUtility.CommonBase - Test starts from row : 1
+2017-10-30 21:56:26,067 [14] INFO  Helpers.TestHelpers.TestBaseUtility.CommonBase - Total rows :1
+2017-10-30 21:56:26,068 [14] INFO  Helpers.TestHelpers.TestBaseUtility.CommonBase - Total cols :6
+2017-10-30 21:56:26,880 [14] INFO  Helpers.TestHelpers.TestBaseUtility.CommonBase - Test starts from row : 1
+2017-10-30 21:56:26,890 [14] INFO  Helpers.TestHelpers.TestBaseUtility.CommonBase - Total rows :1
+2017-10-30 21:56:26,891 [14] INFO  Helpers.TestHelpers.TestBaseUtility.CommonBase - Total cols :6
