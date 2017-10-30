@@ -374,3 +374,12 @@
 2017-10-30 20:44:19,337 [Worker#STA_NP] INFO  Helpers.TestHelpers.TestBaseUtility.CommonBase - E:\COA\27-10-2017\Vinay\OracleTestFrameworkTutorial\SeleniumTests.Invoice\
 2017-10-30 20:44:19,338 [Worker#STA_NP] INFO  Helpers.TestHelpers.TestBaseUtility.CommonBase - E:\COA\27-10-2017\Vinay\OracleTestFrameworkTutorial\
 2017-10-30 20:44:19,339 [Worker#STA_NP] INFO  Helpers.TestHelpers.TestBaseUtility.CommonBase - Result: {0}
+2017-10-30 21:48:04,318 [14] INFO  Helpers.TestHelpers.TestBaseUtility.CommonBase - Test starts from row : 1
+2017-10-30 21:48:04,341 [14] INFO  Helpers.TestHelpers.TestBaseUtility.CommonBase - Total rows :1
+2017-10-30 21:48:04,341 [14] INFO  Helpers.TestHelpers.TestBaseUtility.CommonBase - Total cols :13
+2017-10-30 21:48:05,607 [14] INFO  Helpers.TestHelpers.TestBaseUtility.CommonBase - Test starts from row : 1
+2017-10-30 21:48:05,619 [14] INFO  Helpers.TestHelpers.TestBaseUtility.CommonBase - Total rows :1
+2017-10-30 21:48:05,619 [14] INFO  Helpers.TestHelpers.TestBaseUtility.CommonBase - Total cols :6
+2017-10-30 21:48:06,667 [14] INFO  Helpers.TestHelpers.TestBaseUtility.CommonBase - Test starts from row : 1
+2017-10-30 21:48:06,680 [14] INFO  Helpers.TestHelpers.TestBaseUtility.CommonBase - Total rows :1
+2017-10-30 21:48:06,681 [14] INFO  Helpers.TestHelpers.TestBaseUtility.CommonBase - Total cols :6
