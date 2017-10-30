@@ -9,7 +9,7 @@ using log4net.Config;
 using log4net.Core;
 using log4net.Layout;
 
-namespace Helpers.TestHelpers
+namespace Helpers.TestHelpers.ComponentHelper
 {
     public class LoggerHelper
     {
@@ -53,7 +53,7 @@ namespace Helpers.TestHelpers
             return consoleAppender;
         }
 
-        private static RollingFileAppender GetRollingFileAppender()
+        public static RollingFileAppender GetRollingFileAppender()
         {
             var rollingFileAppender = new RollingFileAppender()
             {
@@ -61,7 +61,7 @@ namespace Helpers.TestHelpers
                 AppendToFile = true,
                 Threshold = Level.Info,
                 Layout = GetPatternLayout(),
-                File = "Selenium.log",
+                File = "E:\\Selenium.txt",
                 MaximumFileSize = "10MB",
                 MaxSizeRollBackups = 10,
                 ImmediateFlush = true,

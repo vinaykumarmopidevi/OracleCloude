@@ -8,11 +8,16 @@ using Helpers.TestHelpers;
 using Helpers.TestHelpers;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Helpers.TestHelpers;
+using Helpers.TestHelpers.ComponentHelper;
+using Helpers.TestHelpers.Interfaces;
+using Helpers.TestHelpers.Settings;
+using Helpers.TestHelpers.TestBaseUtility;
 
-namespace Helpers.TestHelpers
+namespace Helpers.TestHelpers.DataEngineHelper
 {
     public class DataEngine
     {
+        private static log4net.ILog Log = CommonBase.Log;
         public static void ExecuteScript(IPage pageObject,string xlPath, string text)
         {
            // var totalRow = ExcelReaderHelper.GetTotalRows(xlPath, sheetName);
@@ -23,7 +28,7 @@ namespace Helpers.TestHelpers
 
                 
                 var locator = pageObject.GetLocatorOfWebElement(webEle);
-                Console.WriteLine("Action {0}, WebElement {1}, Locator {2} ",action,webEle,locator);
+                Log.Info("Action "+ action + ", WebElement "+ webEle + ", Locator  "+ locator);
                 switch (action) 
                 {
 

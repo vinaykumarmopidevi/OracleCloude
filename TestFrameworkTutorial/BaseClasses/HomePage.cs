@@ -4,15 +4,17 @@ using OpenQA.Selenium.Firefox;
 using OpenQA.Selenium.Support.PageObjects;
 using System.Configuration;
 using System;
+using Helpers.TestHelpers.Configuration;
+using Helpers.TestHelpers.TestBaseUtility;
 
-namespace Helpers.TestHelpers
+namespace Helpers.TestHelpers.BaseClasses
 {
-    public  class HomePage
+    public  class HomePage : CommonBase
     {
         private static IWebDriver driver;
 
 
-        private static string Url = System.Configuration.ConfigurationManager.AppSettings["Website"];
+       
 
         //private static string PageTitle = "Pluralsight -nv Hardcore Developer Training";
 
@@ -26,11 +28,7 @@ namespace Helpers.TestHelpers
         [FindsBy(How = How.Id, Using = "password")]
         private IWebElement passwordtext;
 
-        public void Login(object p)
-        {
-            throw new NotImplementedException();
-        }
-
+       
         [FindsBy(How = How.Id, Using = "btnActive")]
         private IWebElement loginbutton;
 
@@ -49,10 +47,23 @@ namespace Helpers.TestHelpers
         [FindsBy(How = How.CssSelector, Using = "div.homepage-modal--individuals.overlay.black")]
         private IWebElement IndividualLink;
 
-  
+        [FindsBy(How = How.Id, Using = "_FOpt1:_UIScmil1u::icon")]
+
+        private IWebElement signoutimageclick;
+
+        [FindsBy(How = How.Id, Using = "_FOpt1:_UISlg1")]
+        private IWebElement signoutlinkclick;
+
+        [FindsBy(How = How.Id, Using = "Confirm")]
+        private IWebElement confirmbuttonclick;
+
         public void GoTo()
         {
-            Browser.Goto(Url);
+
+            // string Url = System.Configuration.ConfigurationManager.AppSettings[CommonBase.appShortName];
+            string instance = ReadXmlData.GetAttributeTestDataValue("//Setting/Data[@Info='Instance']");
+            string Url = ReadXmlData.GetAttributeValue("//catalog/cd[@shortname='" + instance + "']/url"); ;
+        Browser.Goto(Url);
             System.Threading.Thread.Sleep(5000);
             Browser.MaximizeBrowserPage();
         }
@@ -126,7 +137,24 @@ namespace Helpers.TestHelpers
             IndividualLink.Click();
             System.Threading.Thread.Sleep(5000);
         }
+        public void Signoutimageclick()
+        {
+            System.Threading.Thread.Sleep(10000);
+            signoutimageclick.Click();
+            System.Threading.Thread.Sleep(10000);
+        }
+        public void Signoutlinkclick()
+        {
+            System.Threading.Thread.Sleep(10000);
+            signoutlinkclick.Click();
+            System.Threading.Thread.Sleep(10000);
+        }
+        public void Confirmbuttonclick()
+        {
+            System.Threading.Thread.Sleep(10000);
+            confirmbuttonclick.Click();
+            System.Threading.Thread.Sleep(10000);
+        }
 
-       
     }
 }

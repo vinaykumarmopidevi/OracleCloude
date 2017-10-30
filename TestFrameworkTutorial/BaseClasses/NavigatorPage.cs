@@ -7,7 +7,7 @@ using Helpers.TestHelpers;
 
 
 
-namespace Helpers.TestHelpers
+namespace Helpers.TestHelpers.BaseClasses
 {
     class NavigatorPage
     {

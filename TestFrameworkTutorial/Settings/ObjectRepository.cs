@@ -6,9 +6,10 @@ using System.Threading.Tasks;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using OpenQA.Selenium;
 using Helpers.TestHelpers;
+using Helpers.TestHelpers.Interfaces;
 
 
-namespace Helpers.TestHelpers
+namespace Helpers.TestHelpers.Settings
 {
     public class ObjectRepository
     {

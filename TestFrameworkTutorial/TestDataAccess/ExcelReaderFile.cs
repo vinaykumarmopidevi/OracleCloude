@@ -7,11 +7,13 @@ using NPOI.SS.UserModel;
 using NPOI.HSSF.UserModel;
 using NPOI.XSSF.UserModel;
 using System.IO;
+using Helpers.TestHelpers.TestBaseUtility;
 
-namespace Helpers.TestHelpers
+namespace Helpers.TestHelpers.TestDataAccess
 {
     public class ExcelReaderFile
     {
+        private static log4net.ILog Log = CommonBase.Log;
         public string path;
         public FileStream fs = null;
         private XSSFWorkbook workbook = null;
@@ -32,7 +34,7 @@ namespace Helpers.TestHelpers
             }
             catch (Exception e)
             {
-                Console.WriteLine(e.Message);
+                Log.Info(e.Message);
             }
         }
 
@@ -247,7 +249,7 @@ namespace Helpers.TestHelpers
             }
             catch (Exception ex)
             {
-                Console.WriteLine(ex.Message);
+                Log.Info(ex.Message);
                 return false;
             }
             return true;
@@ -267,7 +269,7 @@ namespace Helpers.TestHelpers
             }
             catch (Exception ex)
             {
-                Console.WriteLine(ex.Message);
+                Log.Info(ex.Message);
                 return false;
             }
             return true;

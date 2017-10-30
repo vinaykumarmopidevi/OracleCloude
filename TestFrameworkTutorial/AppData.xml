@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<catalog>
+  <cd shortname="R12">
+    <url>https://rws2-fap0857-hcm.oracledemos.com/</url>
+    <username>PROC.ADMIN</username>
+    <password>Welcome1</password>
+  </cd>
+  <cd shortname="R13">
+    <url>https://rws2-fap0857-hcm.oracledemos.com/</url>
+    <username>hcm_impl</username>
+    <password>Zxs46863</password>
+  </cd>
+  <cd shortname="R14">
+    <url>https://rws2-fap0857-hcm.oracledemos.com/</url>
+    <username>hcm_impl</username>
+    <password>Zxs46863</password>
+  </cd>
+</catalog>

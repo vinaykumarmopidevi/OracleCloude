@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using OpenQA.Selenium.Support.PageObjects;
 using Helpers.TestHelpers;
+using Helpers.TestHelpers.BaseClasses;
 using Pages.Benefits;
 
 

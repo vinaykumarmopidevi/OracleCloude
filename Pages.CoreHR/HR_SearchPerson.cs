@@ -8,7 +8,7 @@ namespace Pages.CoreHR
     {
         private static string PageTitle = "Search Person - Person Management";
         private static string optainedEmplyeeName;
-        private static string expectedEmployeeName;
+       // private static string expectedEmployeeName;
         [FindsBy(How = How.XPath, Using = "//h1[contains(text(),'Person Management: Search')]")]
         //[FindsBy(How = How.XPath, Using = "//h1[contains(@text,'Person Management: Search')]")]
         private IWebElement personSearch;
@@ -50,34 +50,35 @@ namespace Pages.CoreHR
             System.Threading.Thread.Sleep(20000);
         }
 
-        public void verifyEmployeeName(String LastName)
-        {
-           // var employeeName = ExcelDataAccess.GetTestData(testName);
-            System.Threading.Thread.Sleep(2000);
-            expectedEmployeeName = LastName;
-            Console.WriteLine("Expected Employee Name : '{0}'", expectedEmployeeName);
-        }
+        //public void verifyEmployeeName(String LastName)
+        //{
+        //   // var employeeName = ExcelDataAccess.GetTestData(testName);
+        //    System.Threading.Thread.Sleep(2000);
+        //    expectedEmployeeName = LastName;
+        //    Log.Info("Expected Employee Name : '{0}'", expectedEmployeeName);
+        //}
 
 
-        public void NameLink()
-        {
-             optainedEmplyeeName = namelink.Text;
-             Console.WriteLine("Optained Employee Name : '{0}'", optainedEmplyeeName);
-        }
+        //public void NameLink()
+        //{
+        //     optainedEmplyeeName = namelink.Text;
+        //     Log.Info("Optained Employee Name : '{0}'", optainedEmplyeeName);
+        //}
 
-        public void VerifyEmployee()
+        public String  getEmployeeName()
         {
-            NameLink();
-            if (optainedEmplyeeName == expectedEmployeeName)
-            {
-                Console.WriteLine("*************************************");
-                Console.WriteLine("Employee '{0}' created successfully", expectedEmployeeName);
-                Console.WriteLine("*************************************");
-            }
-            else
-            {
-                Console.WriteLine("Employee doesn't Match");
-            }
+            //optainedEmplyeeName = namelink.Text;
+            //if (optainedEmplyeeName == LastName)
+            //{
+            //    Log.Info("*************************************");
+            //    Log.Info("Employee '{0}' created successfully", LastName);
+            //    Log.Info("*************************************");
+            //}
+            //else
+            //{
+            //    Log.Info("Employee doesn't Match");
+            //}
+            return namelink.Text;
         }
         //public string VerifyEmployeeLink
         //{

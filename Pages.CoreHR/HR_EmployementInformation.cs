@@ -2,7 +2,10 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
+using Helpers.TestHelpers;
+using Helpers.TestHelpers.BaseClasses;
 using OpenQA.Selenium.Support.PageObjects;
 
 using OpenQA.Selenium.Chrome;
@@ -106,6 +109,11 @@ namespace Pages.CoreHR
         }
         public void ClickNext3()
         {
+            IWebElement element = Browser.Driver.FindElement(By.XPath("//*[@id=\"_FOpt1:_FOr1:0:_FOSritemNode_workforce_management_new_person:0:MAnt2:1:pt1:pt_r1:2:pt1:sP2:tt1:next\"]/a"));
+            ((IJavaScriptExecutor)Browser.Driver).ExecuteScript("arguments[0].scrollIntoView(true);", element);
+            
+            // IJavaScriptExecutor jse = (IJavaScriptExecutor)Browser.Driver;
+            // jse.ExecuteScript("window.scrollBy(0,-250)", "");
             System.Threading.Thread.Sleep(10000);
             clicknext3.Click();
             System.Threading.Thread.Sleep(10000);

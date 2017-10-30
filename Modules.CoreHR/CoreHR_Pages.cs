@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using OpenQA.Selenium.Support.PageObjects;
 using Helpers.TestHelpers;
+using Helpers.TestHelpers.BaseClasses;
 using Pages.CoreHR;
 
 
@@ -36,25 +37,7 @@ namespace Modules.CoreHR
 
         }
 
-        //public static Class1 Class1
-        //{
-        //    get
-        //    {
-        //        var class1 = new Class1();
-        //        PageFactory.InitElements(Browser.Driver, class1);
-        //        return class1;
-        //    }
-        //}
-        //public static SearchPerson SearchPerson
-        //{
-        //    get
-        //    {
-        //        var searchPerson = new SearchPerson();
-        //        PageFactory.InitElements(Browser.Driver, searchPerson);
-        //        return searchPerson;
-        //    }
-        //    set { }
-        //}
+        
 
         public static PersonInformation PersonInformation
         {

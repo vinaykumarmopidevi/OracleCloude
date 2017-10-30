@@ -4,14 +4,16 @@ using System.Linq;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
+using Helpers.TestHelpers.TestBaseUtility;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Support.UI;
 
 
-namespace Helpers.TestHelpers
+namespace Helpers.TestHelpers.ComponentHelper
 {
     public class DropDownHelper
     {
+        private static log4net.ILog Log = CommonBase.Log;
         private static SelectElement _select;
 
         #region Private
@@ -72,7 +74,7 @@ namespace Helpers.TestHelpers
             var list = GetAllOptions(element);
             foreach (var ele in list)
             {
-                Console.WriteLine(ele.Text);
+                Log.Info(ele.Text);
             }
             var result = list.FirstOrDefault((x) => x.Text.Contains(text));
             return (result != null);

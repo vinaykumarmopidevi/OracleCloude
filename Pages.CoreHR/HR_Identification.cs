@@ -10,6 +10,8 @@ using OpenQA.Selenium.Firefox;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Support.UI;
 using Helpers.TestHelpers;
+using Helpers.TestHelpers.BaseClasses;
+using Helpers.TestHelpers.TestBaseUtility;
 
 namespace Pages.CoreHR
 {
@@ -20,7 +22,7 @@ namespace Pages.CoreHR
         //{
         //    this.webDrive = driver;
         //}
-
+        private static log4net.ILog Log = CommonBase.Log;
         public String EmployeePageTitle = "Hire an Employee - New Person - Oracle Applications";
 
         [FindsBy(How = How.XPath, Using = "//*[@id='_FOpt1:_UISmmLink' or @id='pt1:_UISmmLink::icon']")]
@@ -153,9 +155,9 @@ namespace Pages.CoreHR
            // var userData = ExcelDataAccess.GetTestData(testName);
             lastname.SendKeys(LastName);
             var name = lastname.Text;
-            Console.WriteLine("************************************");
-            Console.WriteLine("Creating an Employee: '{0}'", LastName);
-            Console.WriteLine("*************************************");
+            Log.Info("************************************");
+            Log.Info("Creating an Employee: "+ LastName);
+            Log.Info("*************************************");
 
         }
 

@@ -4,11 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Helpers.TestHelpers;
+using Helpers.TestHelpers.TestBaseUtility;
+using Helpers.TestHelpers.TestDataAccess;
 
-namespace Helpers.TestHelpers
+namespace Helpers.TestHelpers.TestBaseUtility
 {
     public class DataUtil
     {
+        private static log4net.ILog Log = CommonBase.Log;
         public static object[] getData_old(ExcelReaderFile xls, string testName)
         {
 
@@ -22,7 +25,7 @@ namespace Helpers.TestHelpers
             {
                 testStartRowNum++;
             }
-            Console.WriteLine("Test starts from row : " + testStartRowNum);
+            Log.Info("Test starts from row : " + testStartRowNum);
 
             int colStartRowNum = 1 + testStartRowNum;
             int dataStartRowNum = 2 + testStartRowNum;
@@ -34,7 +37,7 @@ namespace Helpers.TestHelpers
                 rows++;
 
             }
-            Console.WriteLine("Total rows :" + rows);
+            Log.Info("Total rows :" + rows);
 
             //calculate total cols of data
             int cols = 0;
@@ -42,7 +45,7 @@ namespace Helpers.TestHelpers
             {
                 cols++;
             }
-            Console.WriteLine("Total cols :" + cols);
+            Log.Info("Total cols :" + cols);
 
             //read the data
 

@@ -5,12 +5,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Helpers.TestHelpers;
+using Helpers.TestHelpers.Settings;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Support.Extensions;
 using OpenQA.Selenium.Support.UI;
 
 
-namespace Helpers.TestHelpers
+namespace Helpers.TestHelpers.ComponentHelper
 {
     public class GenericHelper
     {

@@ -10,8 +10,10 @@ using OpenQA.Selenium.Support.PageObjects;
 using Helpers.TestHelpers;
 using Helpers.TestHelpers;
 using Helpers.TestHelpers;
+using Helpers.TestHelpers.ComponentHelper;
+using Helpers.TestHelpers.Settings;
 
-namespace Helpers.TestHelpers
+namespace Helpers.TestHelpers.BaseClasses
 {
     public class LoginPage : PageBase
     {

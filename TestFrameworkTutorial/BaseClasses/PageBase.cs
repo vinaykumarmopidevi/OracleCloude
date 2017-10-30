@@ -10,8 +10,9 @@ using log4net;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Support.PageObjects;
 using Helpers.TestHelpers;
+using Helpers.TestHelpers.ComponentHelper;
 
-namespace Helpers.TestHelpers
+namespace Helpers.TestHelpers.BaseClasses
 {
     public class PageBase : BaseClass
     {

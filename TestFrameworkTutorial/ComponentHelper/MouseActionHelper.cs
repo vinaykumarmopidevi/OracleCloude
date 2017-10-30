@@ -4,12 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Helpers.TestHelpers;
+using Helpers.TestHelpers.Settings;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
 using OpenQA.Selenium.Interactions;
 using OpenQA.Selenium.Remote;
 
-namespace Helpers.TestHelpers
+namespace Helpers.TestHelpers.ComponentHelper
 {
     public class MouseActionHelper
     {

@@ -1,4 +1,5 @@
 ﻿using System;
+using Helpers.TestHelpers.TestBaseUtility;
 using OpenQA.Selenium.Support.PageObjects;
 using OpenQA.Selenium;
 
@@ -6,6 +7,7 @@ namespace Pages.Benefits
 {
     public class SearchPerson
     {
+        private static log4net.ILog Log = CommonBase.Log;
         private static string PageTitle = "Search Person - Person Management";
         private static string optainedEmplyeeName;
         private static string expectedEmployeeName;
@@ -55,14 +57,14 @@ namespace Pages.Benefits
            // var employeeName = ExcelDataAccess.GetTestData(testName);
             System.Threading.Thread.Sleep(2000);
             expectedEmployeeName = LastName;
-            Console.WriteLine("Expected Employee Name : '{0}'", expectedEmployeeName);
+            Log.Info("Expected Employee Name : "+ expectedEmployeeName);
         }
 
 
         public void NameLink()
         {
              optainedEmplyeeName = namelink.Text;
-             Console.WriteLine("Optained Employee Name : '{0}'", optainedEmplyeeName);
+             Log.Info("Optained Employee Name : "+ optainedEmplyeeName);
         }
 
         public void VerifyEmployee()
@@ -70,13 +72,13 @@ namespace Pages.Benefits
             //Pages.SearchPerson.NameLink();
             if (optainedEmplyeeName == expectedEmployeeName)
             {
-                Console.WriteLine("*************************************");
-                Console.WriteLine("Employee '{0}' created successfully", expectedEmployeeName);
-                Console.WriteLine("*************************************");
+                Log.Info("*************************************");
+                Log.Info("Employee  created successfully"+ expectedEmployeeName);
+                Log.Info("*************************************");
             }
             else
             {
-                Console.WriteLine("Employee doesn't Match");
+                Log.Info("Employee doesn't Match");
             }
         }
         //public string VerifyEmployeeLink

@@ -6,9 +6,11 @@ using System.Text;
 using System.Threading.Tasks;
 using Helpers.TestHelpers;
 using Helpers.TestHelpers;
+using Helpers.TestHelpers.Interfaces;
+using Helpers.TestHelpers.Settings;
 
 
-namespace Helpers.TestHelpers
+namespace Helpers.TestHelpers.Configuration
 {
     public class AppConfigReader : IConfig
     {

@@ -11,12 +11,16 @@ using OpenQA.Selenium.Support.PageObjects;
 using Helpers.TestHelpers;
 using Helpers.TestHelpers;
 using Helpers.TestHelpers;
+using Helpers.TestHelpers.ComponentHelper;
+using Helpers.TestHelpers.Settings;
+using Helpers.TestHelpers.TestBaseUtility;
+using log4net.Appender;
 
-namespace Helpers.TestHelpers
+namespace Helpers.TestHelpers.BaseClasses
 {
     public class BaseClass
     {
-        private static readonly ILog Logger = LoggerHelper.GetLogger(typeof(BaseClass));
+        private static readonly RollingFileAppender Logger = LoggerHelper.GetRollingFileAppender();
         public void Logout()
         {
             if (!GenericHelper.IsElementPresentQuick(By.XPath(LocatorRepository.LogoutXpath)))
@@ -79,12 +83,12 @@ namespace Helpers.TestHelpers
                 using (var process = Process.Start(processinfo))
                 {
                     process.WaitForExit();
-                    Logger.Info(string.Format(" File Upload {0}",fileName));
+                    //CommonBase.Log.Info(string.Format(" File Upload {0}",fileName));
                 }
             }
             catch (Exception e)
             {
-                Logger.LogException(e);
+               // CommonBase.Log.LogException(e);
                 throw;
             }
            

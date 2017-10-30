@@ -4,8 +4,9 @@ using log4net;
 using OpenQA.Selenium;
 using Helpers.TestHelpers;
 using Helpers.TestHelpers;
+using Helpers.TestHelpers.Settings;
 
-namespace Helpers.TestHelpers
+namespace Helpers.TestHelpers.ComponentHelper
 {
     public class JavaScriptExecutorHelper
     {

@@ -15,9 +15,13 @@ using Helpers.TestHelpers;
 using Helpers.TestHelpers;
 using Helpers.TestHelpers;
 using Helpers.TestHelpers;
+using Helpers.TestHelpers.ComponentHelper;
+using Helpers.TestHelpers.Configuration;
+using Helpers.TestHelpers.CustomException;
+using Helpers.TestHelpers.Settings;
 
 
-namespace Helpers.TestHelpers
+namespace Helpers.TestHelpers.BaseClasses
 {
     [TestClass]
     public class InitializeWebDriver

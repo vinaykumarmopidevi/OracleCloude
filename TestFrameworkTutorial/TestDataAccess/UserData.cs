@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 
-namespace Helpers.TestHelpers
+namespace Helpers.TestHelpers.TestDataAccess
 {
     public class UserData
     {

@@ -6,8 +6,10 @@ using System.Threading;
 using System.Threading.Tasks;
 using Helpers.TestHelpers;
 using Helpers.TestHelpers;
+using Helpers.TestHelpers.BaseClasses;
+using Helpers.TestHelpers.ComponentHelper;
 
-namespace Helpers.TestHelpers
+namespace Helpers.TestHelpers.ExtensionClass.ScreenShotExtClass
 {
     public static class TakeScreenShot
     {

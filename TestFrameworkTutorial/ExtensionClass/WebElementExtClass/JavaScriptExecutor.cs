@@ -9,8 +9,9 @@ using log4net;
 using OpenQA.Selenium;
 using Helpers.TestHelpers;
 using Helpers.TestHelpers;
+using Helpers.TestHelpers.ComponentHelper;
 
-namespace Helpers.TestHelpers
+namespace Helpers.TestHelpers.ExtensionClass.WebElementExtClass
 {
     public static class JavaScriptExecutor
     {
